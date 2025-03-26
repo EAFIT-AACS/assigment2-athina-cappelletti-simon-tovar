@@ -1,33 +1,27 @@
 Athina Cappelletti Simón Tovar
 
-Clases de los miércoles SI2002-2 (7309)
+Wednesday Classes SI2002-2 (7309)
 
-Sistema operativo: Windows
+Operating System: Windows
 
-Lenguaje de programación: Python
+Programming Language: Python
 
-Instrucciones de ejecución:
+Execution Instructions:
 
-Abra su editor de código (preferiblemente VSCode).
-Vaya a las opciones para ejecutar el archivo Python.
-Se abrirá la consola, donde podrá ver los resultados, ya que tiene implementados los casos de pruebas en el código para facilitar la ejecución.
+Open your code editor (preferably VSCode). Go to the options to run the Python file. The console will open, where you can see the results, as the test cases are implemented in the code to facilitate execution.
 
-Explicación de los algoritmos:
+Explanation of the Algorithms:
 
-Algoritmo_1 (Procesamiento de cadenas con PDA): Este algoritmo recibe una lista de cadenas y las procesa mediante un autómata de pila (PDA). Verifica que la cantidad de símbolos 'a' y 'b' sea igual y estén en el orden correcto. Si la cadena cumple con estas reglas, se acepta; de lo contrario, se rechaza. Al final, devuelve un listado de las cadenas aceptadas y rechazadas.
+Algorithm 1 (String Processing with PDA): This algorithm receives a list of strings and processes them using a stack automaton (PDA). It verifies that the number of symbols 'a' and 'b' are equal and that they are in the correct order. If the string meets these rules, it is accepted; otherwise, it is rejected. Finally, it returns a list of the accepted and rejected strings.
 
-Algoritmo_2 (Filtrado de cadenas aceptadas): A partir del resultado del Algoritmo_1, este algoritmo extrae únicamente las cadenas que fueron aceptadas. Su función es seleccionar las cadenas que cumplen con la gramática establecida y que pueden ser utilizadas en la siguiente fase de construcción de árboles.
+Algorithm_2 (Filtering accepted strings): From the result of Algorithm_1, this algorithm extracts only the accepted strings. Its function is to select the strings that comply with the established grammar and can be used in the next tree building phase.
 
-Algoritmo_3 (Construcción de árboles o configuraciones): Recibe las cadenas aceptadas del Algoritmo_2 y genera una de dos posibles estructuras: (1) el árbol de derivación más a la izquierda, donde se muestra paso a paso la transformación de la gramática hasta formar la cadena final, o (2) las configuraciones del autómata de pila, registrando su estado, el contenido de la pila y la entrada restante en cada paso del procesamiento.
+Algorithm_3 (Building trees or configurations): It receives the accepted strings from Algorithm_2 and generates one of two possible structures: (1) the leftmost derivation tree, which shows the step-by-step transformation of the grammar until the final string is formed, or (2) the configurations of the stack automaton, recording its state, the stack contents, and the remaining input at each processing step.
 
-Bibliografía:
+References:
 
 https://pypi.org/project/automata-lib/5.0.0/
 
-https://www.chegg.com/homework-help/questions-and-answers/write-python-program-implement-pda-accepts-one-languages-l-anb2n-n-1-b-l-aibj-j-j-1-design-q86636643
+https://www.chegg.com/homework-help/questions-and-answers/write-python-program-implement-pda-accepts-one-languages-l-anb2n-n-1-bl-aibj-jj-1-design-q86636643
 
 https://caleb531.github.io/automata/api/pda/class-npda/
-
-
-
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/gjhNPQOm)
